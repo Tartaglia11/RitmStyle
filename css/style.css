@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-	max-width: 1240px;
+	max-width: 1296px;
 	margin: 0 auto;
 }
 
@@ -50,6 +50,7 @@ body {
 	width: 700px;
 	justify-content: space-between;
 	padding: 21px 0 0 0;
+	font-size: 14px;
 }
 
 .header__menu a {
@@ -66,9 +67,37 @@ body {
 	padding: 9px 15px;
 	margin: 11px 0 0 0;
 	height: 36px;
+	font-size: 13px;
 }
 
 .header__button p {
 	color: #fff;
+}
 
+.main-picture {
+	margin-top: 50px;
+	color: #fff;
+	font-family: 'El Messiri', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.main-picture__background {
+	background-image: url("../img/main-picture.png");
+	height: 600px;
+}
+
+.main-picture__desc {
+	padding: 136px 0 0 0;
+	font-size: 24px;
+	line-height: 33.6px;
+	margin-bottom: 40px;
+}
+
+.main-picture__title {
+	margin: 0 auto;
+	max-width: 587px;
+	font-size: 64px;
+	line-height: 140%;
+	height: 180px;
 }
